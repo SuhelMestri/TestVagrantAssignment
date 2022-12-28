@@ -35,14 +35,14 @@ public class TestValidations {
 		JsonPath js = new JsonPath(JSONpayLoad.rcbTeam());
 		int totalPlayers = js.getInt("player.size()");
 
-		int CountOfWK = 0;
+		int CountOfWkeeper = 0;
 		for (int i = 0; i < totalPlayers; i++) {
 			String Playerrole = js.getString("player[" + i + "].role");
 			if (Playerrole.equalsIgnoreCase("Wicket-keeper")) {
-				CountOfWK++;
+				CountOfWkeeper++;
 			}
 		}
-		Assert.assertTrue(CountOfWK >= 1, "Failure Message = RCB team having no weeket keepers");
+		Assert.assertTrue(CountOfWkeeper >= 1, "Failure Message = RCB team having no weeket keepers");
 	}
 
 }

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-28T12:03:06Z" name="Default suite" finished-at="2022-12-28T12:03:09Z" duration-ms="2722">
+  <suite started-at="2022-12-28T17:55:45Z" name="Default suite" finished-at="2022-12-28T17:55:48Z" duration-ms="2445">
     <groups>
     </groups>
-    <test started-at="2022-12-28T12:03:06Z" name="Default test" finished-at="2022-12-28T12:03:09Z" duration-ms="2722">
-      <class name="com.TestVagrant.testCases.testClass">
-        <test-method signature="foreignPlayersValidation()[pri:0, instance:com.TestVagrant.testCases.testClass@1fb19a0]" started-at="2022-12-28T12:03:06Z" name="foreignPlayersValidation" finished-at="2022-12-28T12:03:08Z" duration-ms="2437" status="PASS">
+    <test started-at="2022-12-28T17:55:45Z" name="Default test" finished-at="2022-12-28T17:55:48Z" duration-ms="2445">
+      <class name="com.TestVagrant.testCases.TestValidations">
+        <test-method signature="foreignPlayersValidation()[pri:0, instance:com.TestVagrant.testCases.TestValidations@1fb19a0]" started-at="2022-12-28T17:55:45Z" name="foreignPlayersValidation" finished-at="2022-12-28T17:55:47Z" duration-ms="2182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foreignPlayersValidation -->
-        <test-method signature="wicketKeeperValidation()[pri:0, instance:com.TestVagrant.testCases.testClass@1fb19a0]" started-at="2022-12-28T12:03:08Z" name="wicketKeeperValidation" finished-at="2022-12-28T12:03:09Z" duration-ms="239" status="PASS">
+        <test-method signature="wicketKeeperValidation()[pri:0, instance:com.TestVagrant.testCases.TestValidations@1fb19a0]" started-at="2022-12-28T17:55:47Z" name="wicketKeeperValidation" finished-at="2022-12-28T17:55:48Z" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wicketKeeperValidation -->
-      </class> <!-- com.TestVagrant.testCases.testClass -->
+      </class> <!-- com.TestVagrant.testCases.TestValidations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
